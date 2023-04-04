@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: rgb(222, 238, 243);
+
+}
+.contaner{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    
+
+}
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding-right: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(25, 6, 6);
+    font-size: 25px;
+
+}
+
+.Coo{
+    
+    padding: 40% 2%;
+}
+h2{
+    color: rgb(71, 170, 170);
+    font-size: 50px;
+   
+    
+}
+.Coo a{ text-decoration: none;
+color: rgb(71, 125, 125);
+font-size: 20px;
+background-color: rgb(217, 236, 229);
+padding: 0 20px;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+
+.first{
+    background: url(./1.jpg);
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.secound{
+    background: url(./2.jpg);
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.three{
+    background-image: url(./3.jpg);
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.four{
+    background-image: url(./4.jpg);
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.five{
+    background-image: url(./5.jpg);
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
